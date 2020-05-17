@@ -68,12 +68,12 @@
 		0DB1B71D246E424A00D6B175 /* stateMachine */ = {
 			isa = PBXGroup;
 			children = (
-				0DB1B720246E424A00D6B175 /* SceneDelegate.swift */,
 				0DB1B71E246E424A00D6B175 /* AppDelegate.swift */,
-				0DB1B722246E424A00D6B175 /* ViewController.swift */,
+				0DB1B720246E424A00D6B175 /* SceneDelegate.swift */,
 				0DB1B740246E9E5800D6B175 /* State */,
-				0DB1B741246E9E6500D6B175 /* Helper */,
+				0DB1B722246E424A00D6B175 /* ViewController.swift */,
 				0DB1B734246E9D4F00D6B175 /* Models.swift */,
+				0DB1B741246E9E6500D6B175 /* Utility */,
 				0DB1B727246E424C00D6B175 /* Assets.xcassets */,
 				0DB1B729246E424C00D6B175 /* LaunchScreen.storyboard */,
 				0DB1B72C246E424C00D6B175 /* Info.plist */,
@@ -92,13 +92,13 @@
 			path = State;
 			sourceTree = "<group>";
 		};
-		0DB1B741246E9E6500D6B175 /* Helper */ = {
+		0DB1B741246E9E6500D6B175 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
 				0DB1B73E246E9E3500D6B175 /* InjectionHandler.swift */,
 				0DB1B732246E9D2900D6B175 /* UserCase.swift */,
 			);
-			path = Helper;
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

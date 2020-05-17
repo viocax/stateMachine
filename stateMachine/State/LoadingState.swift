@@ -25,7 +25,7 @@ class LoadingState: ViewControllerState {
 
     private var userCase: UserCase?
 
-    convenience init(_ viewController: UIViewController, userCase: UserCase) {
+    convenience init(_ viewController: ViewController, userCase: UserCase) {
         self.init(viewController)
         self.userCase = userCase
     }
